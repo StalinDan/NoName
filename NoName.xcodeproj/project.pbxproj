@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C54A2172186AD3E006E74A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C54A2162186AD3E006E74A5 /* Info.plist */; };
 		1CA93B3B21805BFF00472E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B3A21805BFF00472E9A /* AppDelegate.m */; };
 		1CA93B3E21805BFF00472E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B3D21805BFF00472E9A /* ViewController.m */; };
 		1CA93B4121805BFF00472E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA93B3F21805BFF00472E9A /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		0A05CECC075D1664BFD927FA /* Pods-NoNameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoNameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoNameUITests/Pods-NoNameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		149B0955CF3400E025035A01 /* Pods-NoNameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoNameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoNameTests/Pods-NoNameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C54A2162186AD3E006E74A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA93B3621805BFF00472E9A /* NoName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA93B3921805BFF00472E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA93B3A21805BFF00472E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,7 +60,6 @@
 		1CA93B4021805BFF00472E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CA93B4221805C0000472E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA93B4521805C0100472E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1CA93B4721805C0100472E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA93B4821805C0100472E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CA93B4E21805C0100472E9A /* NoNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA93B5221805C0100472E9A /* NoNameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoNameTests.m; sourceTree = "<group>"; };
@@ -171,7 +172,7 @@
 				1CA93B3F21805BFF00472E9A /* Main.storyboard */,
 				1CA93B4221805C0000472E9A /* Assets.xcassets */,
 				1CA93B4421805C0100472E9A /* LaunchScreen.storyboard */,
-				1CA93B4721805C0100472E9A /* Info.plist */,
+				1C54A2162186AD3E006E74A5 /* Info.plist */,
 				1CA93B4821805C0100472E9A /* main.m */,
 			);
 			path = NoName;
@@ -462,6 +463,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C54A2172186AD3E006E74A5 /* Info.plist in Resources */,
 				1CA93B4621805C0100472E9A /* LaunchScreen.storyboard in Resources */,
 				1CA93B4321805C0100472E9A /* Assets.xcassets in Resources */,
 				1CA93B4121805BFF00472E9A /* Main.storyboard in Resources */,
