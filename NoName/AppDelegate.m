@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NNRDVTabbarVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, NN_ScreenW, NN_ScreenH)];
+    self.window.rootViewController = [[NNRDVTabbarVC alloc]init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

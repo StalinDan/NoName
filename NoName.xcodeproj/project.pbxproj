@@ -16,6 +16,15 @@
 		1CA93B5321805C0100472E9A /* NoNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B5221805C0100472E9A /* NoNameTests.m */; };
 		1CA93B5E21805C0100472E9A /* NoNameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B5D21805C0100472E9A /* NoNameUITests.m */; };
 		1CA93B74218063F600472E9A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B73218063F600472E9A /* BaseViewController.m */; };
+		1CA93B7B2182BE6200472E9A /* BaseNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B7A2182BE6200472E9A /* BaseNavVC.m */; };
+		1CA93B802182BEEC00472E9A /* NNShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B7F2182BEEC00472E9A /* NNShopVC.m */; };
+		1CA93B832182BF0300472E9A /* NNVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B822182BF0300472E9A /* NNVideoVC.m */; };
+		1CA93B862182BF1300472E9A /* NNMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B852182BF1300472E9A /* NNMineVC.m */; };
+		1CA93B892182BF2300472E9A /* NNChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B882182BF2300472E9A /* NNChatVC.m */; };
+		1CA93B902182C3AC00472E9A /* NNRDVTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B8F2182C3AC00472E9A /* NNRDVTabbarVC.m */; };
+		1CA93B992183112700472E9A /* NNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B982183112700472E9A /* NNRequest.m */; };
+		1CA93B9C2183116700472E9A /* NNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B9B2183116700472E9A /* NNTableViewController.m */; };
+		1CA93B9F2183168E00472E9A /* NNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B9E2183168E00472E9A /* NNTableViewCell.m */; };
 		30F2D98E5F2C327D36E5823C /* libPods-NoNameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA82CC9F0FAF3E5E0CD5C40 /* libPods-NoNameTests.a */; };
 		94665943CFAC0AF6515B6D48 /* libPods-NoNameUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9F2019F5DE486493AF4B09 /* libPods-NoNameUITests.a */; };
 		D302479522DA66DD08BAAB9B /* libPods-NoName.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B4FABAC5079AE51456F050 /* libPods-NoName.a */; };
@@ -59,6 +68,27 @@
 		1CA93B5F21805C0100472E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA93B72218063F600472E9A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		1CA93B73218063F600472E9A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1CA93B792182BE6200472E9A /* BaseNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavVC.h; sourceTree = "<group>"; };
+		1CA93B7A2182BE6200472E9A /* BaseNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavVC.m; sourceTree = "<group>"; };
+		1CA93B7E2182BEEC00472E9A /* NNShopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNShopVC.h; sourceTree = "<group>"; };
+		1CA93B7F2182BEEC00472E9A /* NNShopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNShopVC.m; sourceTree = "<group>"; };
+		1CA93B812182BF0300472E9A /* NNVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNVideoVC.h; sourceTree = "<group>"; };
+		1CA93B822182BF0300472E9A /* NNVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNVideoVC.m; sourceTree = "<group>"; };
+		1CA93B842182BF1300472E9A /* NNMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNMineVC.h; sourceTree = "<group>"; };
+		1CA93B852182BF1300472E9A /* NNMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNMineVC.m; sourceTree = "<group>"; };
+		1CA93B872182BF2300472E9A /* NNChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNChatVC.h; sourceTree = "<group>"; };
+		1CA93B882182BF2300472E9A /* NNChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNChatVC.m; sourceTree = "<group>"; };
+		1CA93B8E2182C3AC00472E9A /* NNRDVTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNRDVTabbarVC.h; sourceTree = "<group>"; };
+		1CA93B8F2182C3AC00472E9A /* NNRDVTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNRDVTabbarVC.m; sourceTree = "<group>"; };
+		1CA93B912182E7C600472E9A /* UIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
+		1CA93B922182E92E00472E9A /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		1CA93B932182ECDE00472E9A /* NoName-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoName-PrefixHeader.pch"; sourceTree = "<group>"; };
+		1CA93B972183112700472E9A /* NNRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNRequest.h; sourceTree = "<group>"; };
+		1CA93B982183112700472E9A /* NNRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNRequest.m; sourceTree = "<group>"; };
+		1CA93B9A2183116700472E9A /* NNTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTableViewController.h; sourceTree = "<group>"; };
+		1CA93B9B2183116700472E9A /* NNTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTableViewController.m; sourceTree = "<group>"; };
+		1CA93B9D2183168E00472E9A /* NNTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTableViewCell.h; sourceTree = "<group>"; };
+		1CA93B9E2183168E00472E9A /* NNTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTableViewCell.m; sourceTree = "<group>"; };
 		28687B49C1DDF79779CD9D59 /* Pods-NoName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoName.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoName/Pods-NoName.debug.xcconfig"; sourceTree = "<group>"; };
 		5CA82CC9F0FAF3E5E0CD5C40 /* libPods-NoNameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoNameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9D1179F478FA8033EFEAA3 /* Pods-NoNameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoNameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoNameTests/Pods-NoNameTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +161,7 @@
 		1CA93B3821805BFF00472E9A /* NoName */ = {
 			isa = PBXGroup;
 			children = (
+				1CA93B932182ECDE00472E9A /* NoName-PrefixHeader.pch */,
 				1CA93B6C2180624D00472E9A /* Expand */,
 				1CA93B6B2180624D00472E9A /* Module */,
 				1CA93B3921805BFF00472E9A /* AppDelegate.h */,
@@ -167,6 +198,10 @@
 		1CA93B6B2180624D00472E9A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1CA93B7D2182BEB600472E9A /* Chat */,
+				1CA93B7C2182BEB600472E9A /* Shop */,
+				1CA93B762182BDD800472E9A /* Mine */,
+				1CA93B772182BDD800472E9A /* Video */,
 				1CA93B702180632300472E9A /* Base */,
 			);
 			path = Module;
@@ -192,6 +227,8 @@
 		1CA93B6E2180624D00472E9A /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				1CA93B912182E7C600472E9A /* UIMacro.h */,
+				1CA93B922182E92E00472E9A /* CommonMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -206,6 +243,11 @@
 		1CA93B702180632300472E9A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1CA93B962183110C00472E9A /* NNModel */,
+				1CA93B942183110B00472E9A /* NNRequest */,
+				1CA93B952183110C00472E9A /* NNTableView */,
+				1CA93B8A2182C01300472E9A /* TabbarVC */,
+				1CA93B782182BE2600472E9A /* BaseNav */,
 				1CA93B71218063D400472E9A /* BaseVC */,
 			);
 			path = Base;
@@ -218,6 +260,87 @@
 				1CA93B73218063F600472E9A /* BaseViewController.m */,
 			);
 			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		1CA93B762182BDD800472E9A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B842182BF1300472E9A /* NNMineVC.h */,
+				1CA93B852182BF1300472E9A /* NNMineVC.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1CA93B772182BDD800472E9A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B812182BF0300472E9A /* NNVideoVC.h */,
+				1CA93B822182BF0300472E9A /* NNVideoVC.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		1CA93B782182BE2600472E9A /* BaseNav */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B792182BE6200472E9A /* BaseNavVC.h */,
+				1CA93B7A2182BE6200472E9A /* BaseNavVC.m */,
+			);
+			path = BaseNav;
+			sourceTree = "<group>";
+		};
+		1CA93B7C2182BEB600472E9A /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B7E2182BEEC00472E9A /* NNShopVC.h */,
+				1CA93B7F2182BEEC00472E9A /* NNShopVC.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		1CA93B7D2182BEB600472E9A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B872182BF2300472E9A /* NNChatVC.h */,
+				1CA93B882182BF2300472E9A /* NNChatVC.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		1CA93B8A2182C01300472E9A /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B8E2182C3AC00472E9A /* NNRDVTabbarVC.h */,
+				1CA93B8F2182C3AC00472E9A /* NNRDVTabbarVC.m */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		1CA93B942183110B00472E9A /* NNRequest */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B972183112700472E9A /* NNRequest.h */,
+				1CA93B982183112700472E9A /* NNRequest.m */,
+			);
+			path = NNRequest;
+			sourceTree = "<group>";
+		};
+		1CA93B952183110C00472E9A /* NNTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1CA93B9A2183116700472E9A /* NNTableViewController.h */,
+				1CA93B9B2183116700472E9A /* NNTableViewController.m */,
+				1CA93B9D2183168E00472E9A /* NNTableViewCell.h */,
+				1CA93B9E2183168E00472E9A /* NNTableViewCell.m */,
+			);
+			path = NNTableView;
+			sourceTree = "<group>";
+		};
+		1CA93B962183110C00472E9A /* NNModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NNModel;
 			sourceTree = "<group>";
 		};
 		4775F5B846435E775B47CE5D /* Pods */ = {
@@ -436,9 +559,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA93B3E21805BFF00472E9A /* ViewController.m in Sources */,
+				1CA93B9F2183168E00472E9A /* NNTableViewCell.m in Sources */,
+				1CA93B902182C3AC00472E9A /* NNRDVTabbarVC.m in Sources */,
 				1CA93B74218063F600472E9A /* BaseViewController.m in Sources */,
 				1CA93B4921805C0100472E9A /* main.m in Sources */,
+				1CA93B992183112700472E9A /* NNRequest.m in Sources */,
+				1CA93B862182BF1300472E9A /* NNMineVC.m in Sources */,
+				1CA93B7B2182BE6200472E9A /* BaseNavVC.m in Sources */,
+				1CA93B832182BF0300472E9A /* NNVideoVC.m in Sources */,
+				1CA93B802182BEEC00472E9A /* NNShopVC.m in Sources */,
+				1CA93B9C2183116700472E9A /* NNTableViewController.m in Sources */,
 				1CA93B3B21805BFF00472E9A /* AppDelegate.m in Sources */,
+				1CA93B892182BF2300472E9A /* NNChatVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +666,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoName/NoName-PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -591,6 +725,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoName/NoName-PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
