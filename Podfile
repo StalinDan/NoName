@@ -10,6 +10,7 @@ target 'NoName' do
  pod 'RDVTabBarController'
  pod 'YTKNetwork'
  pod 'Masonry'
+ pod 'YYWebImage'
 
   target 'NoNameTests' do
     inherit! :search_paths

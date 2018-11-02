@@ -10,4 +10,15 @@
 
 @implementation NNRequest
 
+- (NSDictionary *)requestHeaderFieldValueDictionary {
+    return @{
+
+             };
+}
+
+
+//- (YTKRequestSerializerType)requestSerializerType {
+//    return YTKRequestSerializerTypeJSON;
+//}
+
 @end

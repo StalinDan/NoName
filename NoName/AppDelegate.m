@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "NNRDVTabbarVC.h"
+#import <YTKNetworkConfig.h>
+#import <AFSecurityPolicy.h>
 
 @interface AppDelegate ()
 
@@ -22,7 +24,21 @@
     self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, NN_ScreenW, NN_ScreenH)];
     self.window.rootViewController = [[NNRDVTabbarVC alloc]init];
     [self.window makeKeyAndVisible];
+    
+    [self configNetworkParama];
     return YES;
+}
+
+- (void)configNetworkParama {
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+//    config.baseUrl = @"http://192.168.0.23:9080";
+    config.baseUrl = @"http://114.55.250.37:8080";
+    AFSecurityPolicy *security = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+    security.allowInvalidCertificates = YES;
+    security.validatesDomainName = NO;
+    config.securityPolicy = security;
+    
+    
 }
 
 

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1C54A2172186AD3E006E74A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C54A2162186AD3E006E74A5 /* Info.plist */; };
+		1C54A21A2186B145006E74A5 /* NNUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C54A2192186B145006E74A5 /* NNUI.m */; };
+		1C54A21D2186DD25006E74A5 /* NNPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C54A21C2186DD25006E74A5 /* NNPlayer.m */; };
+		1C63C5722187F9AE00F78D87 /* TestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63C5712187F9AE00F78D87 /* TestRequest.m */; };
+		1C63C5752188267100F78D87 /* TestHomePageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63C5742188267100F78D87 /* TestHomePageApi.m */; };
 		1CA93B3B21805BFF00472E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B3A21805BFF00472E9A /* AppDelegate.m */; };
 		1CA93B3E21805BFF00472E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA93B3D21805BFF00472E9A /* ViewController.m */; };
 		1CA93B4121805BFF00472E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA93B3F21805BFF00472E9A /* Main.storyboard */; };
@@ -52,6 +56,14 @@
 		0A05CECC075D1664BFD927FA /* Pods-NoNameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoNameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoNameUITests/Pods-NoNameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		149B0955CF3400E025035A01 /* Pods-NoNameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoNameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoNameTests/Pods-NoNameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C54A2162186AD3E006E74A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C54A2182186B145006E74A5 /* NNUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NNUI.h; path = NoName/Module/Base/NNTableView/NNUI.h; sourceTree = SOURCE_ROOT; };
+		1C54A2192186B145006E74A5 /* NNUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NNUI.m; path = NoName/Module/Base/NNTableView/NNUI.m; sourceTree = SOURCE_ROOT; };
+		1C54A21B2186DD25006E74A5 /* NNPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NNPlayer.h; path = NoName/Module/Base/NNTableView/NNPlayer.h; sourceTree = SOURCE_ROOT; };
+		1C54A21C2186DD25006E74A5 /* NNPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NNPlayer.m; path = NoName/Module/Base/NNTableView/NNPlayer.m; sourceTree = SOURCE_ROOT; };
+		1C63C5702187F9AE00F78D87 /* TestRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRequest.h; sourceTree = "<group>"; };
+		1C63C5712187F9AE00F78D87 /* TestRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRequest.m; sourceTree = "<group>"; };
+		1C63C5732188267100F78D87 /* TestHomePageApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHomePageApi.h; sourceTree = "<group>"; };
+		1C63C5742188267100F78D87 /* TestHomePageApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHomePageApi.m; sourceTree = "<group>"; };
 		1CA93B3621805BFF00472E9A /* NoName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA93B3921805BFF00472E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA93B3A21805BFF00472E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,6 +149,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1C63C56F2187F96E00F78D87 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1C63C5702187F9AE00F78D87 /* TestRequest.h */,
+				1C63C5712187F9AE00F78D87 /* TestRequest.m */,
+				1C63C5732188267100F78D87 /* TestHomePageApi.h */,
+				1C63C5742188267100F78D87 /* TestHomePageApi.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		1CA93B2D21805BFF00472E9A = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +222,7 @@
 		1CA93B6B2180624D00472E9A /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1C63C56F2187F96E00F78D87 /* Test */,
 				1CA93B7D2182BEB600472E9A /* Chat */,
 				1CA93B7C2182BEB600472E9A /* Shop */,
 				1CA93B762182BDD800472E9A /* Mine */,
@@ -237,6 +261,10 @@
 		1CA93B6F2180624D00472E9A /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1C54A2182186B145006E74A5 /* NNUI.h */,
+				1C54A2192186B145006E74A5 /* NNUI.m */,
+				1C54A21B2186DD25006E74A5 /* NNPlayer.h */,
+				1C54A21C2186DD25006E74A5 /* NNPlayer.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -561,16 +589,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA93B3E21805BFF00472E9A /* ViewController.m in Sources */,
+				1C63C5722187F9AE00F78D87 /* TestRequest.m in Sources */,
 				1CA93B9F2183168E00472E9A /* NNTableViewCell.m in Sources */,
 				1CA93B902182C3AC00472E9A /* NNRDVTabbarVC.m in Sources */,
 				1CA93B74218063F600472E9A /* BaseViewController.m in Sources */,
+				1C63C5752188267100F78D87 /* TestHomePageApi.m in Sources */,
 				1CA93B4921805C0100472E9A /* main.m in Sources */,
+				1C54A21A2186B145006E74A5 /* NNUI.m in Sources */,
 				1CA93B992183112700472E9A /* NNRequest.m in Sources */,
 				1CA93B862182BF1300472E9A /* NNMineVC.m in Sources */,
 				1CA93B7B2182BE6200472E9A /* BaseNavVC.m in Sources */,
 				1CA93B832182BF0300472E9A /* NNVideoVC.m in Sources */,
 				1CA93B802182BEEC00472E9A /* NNShopVC.m in Sources */,
 				1CA93B9C2183116700472E9A /* NNTableViewController.m in Sources */,
+				1C54A21D2186DD25006E74A5 /* NNPlayer.m in Sources */,
 				1CA93B3B21805BFF00472E9A /* AppDelegate.m in Sources */,
 				1CA93B892182BF2300472E9A /* NNChatVC.m in Sources */,
 			);
